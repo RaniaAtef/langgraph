@@ -10,7 +10,7 @@ import { createOpenAIFunctionsAgent } from 'langchain/agents';
 // Define some useful tools
 const tools = [
   new DynamicStructuredTool({
-    name: "calculator",
+    name: "calculatorr",
     description: "Useful for performing mathematical calculations",
     schema: z.object({
       expression: z.string().describe("The mathematical expression to evaluate"),
